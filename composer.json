@@ -16,7 +16,12 @@
         "zendframework/zend-component-installer": "^1.0 || ^0.7 || ^1.0.0-dev@dev",
         "zendframework/zend-mvc": "^3.0.1",
         "zfcampus/zf-development-mode": "^3.0",
-        "zendframework/zend-db": "^2.9"
+        "zendframework/zend-db": "^2.9",
+        "zendframework/zend-servicemanager": "^3.3",
+        "zendframework/zend-validator": "^2.10",
+        "zendframework/zend-inputfilter": "^2.8",
+        "zendframework/zend-form": "^2.12",
+        "zendframework/zend-i18n": "^2.9"
     },
     "autoload": {
         "psr-4": {
@@ -26,7 +31,8 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "ApplicationTest\\": "module/Application/test/"
+            "ApplicationTest\\": "module/Application/test/",
+            "Album\\": "module/Album/src/"
         }
     },
     "extra": [],

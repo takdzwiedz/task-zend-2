@@ -13,7 +13,12 @@
       <excludeFolder url="file://$MODULE_DIR$/vendor/zendframework/zend-db" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/zendframework/zend-escaper" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/zendframework/zend-eventmanager" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/zendframework/zend-filter" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/zendframework/zend-form" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/zendframework/zend-http" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/zendframework/zend-hydrator" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/zendframework/zend-i18n" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/zendframework/zend-inputfilter" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/zendframework/zend-loader" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/zendframework/zend-modulemanager" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/zendframework/zend-mvc" />
