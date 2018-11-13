@@ -15,7 +15,8 @@ return [
     'db' => [
 
         'driver' => 'Pdo',
-        'dsn' => 'mysql:dbname=data;host=localhost;charset=utf8',
+        'dsn'    => sprintf('sqlite:%s/data/zftutorial.db', realpath(getcwd())),
+//        'dsn' => 'mysql:dbname=data;host=localhost;charset=utf8',
 
 
     ],
