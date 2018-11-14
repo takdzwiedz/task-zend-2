@@ -1,28 +1,55 @@
 <?php
-// module/Album/view/album/album/index.phtml:
 
-$title = 'My albums';
+$title = 'Moje dane';
 $this->headTitle($title);
 ?>
 <h1><?= $this->escapeHtml($title) ?></h1>
 <p>
-    <a href="<?= $this->url('album', ['action' => 'add']) ?>">Add new album</a>
+    <a href="<?= $this->url('album', ['action' => 'add']) ?>">Dodaj nowe dane</a>
 </p>
 
 <table class="table">
     <tr>
-        <th>Title</th>
-        <th>Artist</th>
-        <th>&nbsp;</th>
+        <th>Action Reason ID</th>
+        <th>Action ID</th>
+        <th>Action Name</th>
+        <th>Action Description</th>
+        <th>Reason Id</th>
+        <th>Reason Description</th>
+        <th>Action Name</th>
+        <th>Action Reason Begin</th>
+        <th>Action Reason End</th>
+        <th>Action Reason Create Id</th>
+        <th>Action Reason Create User</th>
+        <th>Action Reason Create Date</th>
+        <th>Action Reason Modify Id</th>
+        <th>Action Reason Modify User</th>
+        <th>Action Reason Modify Date</th>
+        <th></th>
+
     </tr>
     <?php foreach ($albums as $album) : ?>
         <tr>
-            <td><?= $this->escapeHtml($album->title) ?></td>
-            <td><?= $this->escapeHtml($album->artist) ?></td>
+            <td><?= $this->escapeHtml($album->action_reason_id) ?></td>
+            <td><?= $this->escapeHtml($album->action_id) ?></td>
+            <td><?= $this->escapeHtml($album->action_name) ?></td>
+            <td><?= $this->escapeHtml($album->action_description) ?></td>
+            <td><?= $this->escapeHtml($album->reason_id) ?></td>
+            <td><?= $this->escapeHtml($album->reason_name) ?></td>
+            <td><?= $this->escapeHtml($album->reason_description) ?></td>
+            <td><?= $this->escapeHtml($album->action_reason_begin) ?></td>
+            <td><?= $this->escapeHtml($album->action_reason_end) ?></td>
+            <td><?= $this->escapeHtml($album->action_reason_create_id) ?></td>
+            <td><?= $this->escapeHtml($album->action_reason_create_user) ?></td>
+            <td><?= $this->escapeHtml($album->action_reason_create_date) ?></td>
+            <td><?= $this->escapeHtml($album->action_reason_modify_id) ?></td>
+            <td><?= $this->escapeHtml($album->action_reason_modify_user) ?></td>
+            <td><?= $this->escapeHtml($album->action_reason_modify_date) ?></td>
             <td>
-                <a href="<?= $this->url('album', ['action' => 'edit', 'id' => $album->id]) ?>">Edit</a>
-                <a href="<?= $this->url('album', ['action' => 'delete', 'id' => $album->id]) ?>">Delete</a>
+                <a href="<?= $this->url('album', ['action' => 'edit', 'id' => $album->action_reason_id]) ?>">Edytuj</a>
+                <a href="<?= $this->url('album', ['action' => 'delete', 'id' => $album->action_reason_id]) ?>">Usuń</a>
             </td>
+
         </tr>
     <?php endforeach; ?>
 </table>

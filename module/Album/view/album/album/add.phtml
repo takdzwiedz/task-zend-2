@@ -1,20 +1,66 @@
 <?php
-$title = 'Add new album';
+$title = 'Dodaj nowy rekord';
 $this->headTitle($title);
 ?>
     <h1><?= $this->escapeHtml($title) ?></h1>
 <?php
-// This provides a default CSS class and placeholder text for the title element:
-$album = $form->get('title');
-$album->setAttribute('class', 'form-control');
-$album->setAttribute('placeholder', 'Album title');
 
-// This provides a default CSS class and placeholder text for the artist element:
-$artist = $form->get('artist');
-$artist->setAttribute('class', 'form-control');
-$artist->setAttribute('placeholder', 'Artist');
+$action_id = $form->get('action_id');
+$action_id->setAttribute('class', 'form-control');
+$action_id->setAttribute('placeholder', 'Action Id');
 
-// This provides CSS classes for the submit button:
+$action_name = $form->get('action_name');
+$action_name->setAttribute('class', 'form-control');
+$action_name->setAttribute('placeholder', 'Action Name');
+
+$action_description = $form->get('action_description');
+$action_description->setAttribute('class', 'form-control');
+$action_description->setAttribute('placeholder', 'Action Description');
+
+$reason_id = $form->get('reason_id');
+$reason_id->setAttribute('class', 'form-control');
+$reason_id->setAttribute('placeholder', 'Reason Id');
+
+$reason_name = $form->get('reason_name');
+$reason_name->setAttribute('class', 'form-control');
+$reason_name->setAttribute('placeholder', 'Reason Name');
+
+$reason_description = $form->get('reason_description');
+$reason_description->setAttribute('class', 'form-control');
+$reason_description->setAttribute('placeholder', 'Reason Desc.');
+
+$action_reason_begin= $form->get('action_reason_begin');
+$action_reason_begin->setAttribute('class', 'form-control');
+$action_reason_begin->setAttribute('placeholder', 'Action Reason Begin');
+
+$action_reason_end= $form->get('action_reason_end');
+$action_reason_end->setAttribute('class', 'form-control');
+$action_reason_end->setAttribute('placeholder', 'Action Reason End');
+
+$action_reason_create_id= $form->get('action_reason_create_id');
+$action_reason_create_id->setAttribute('class', 'form-control');
+$action_reason_create_id->setAttribute('placeholder', 'Action Reason Create Id');
+
+$action_reason_create_user= $form->get('action_reason_create_user');
+$action_reason_create_user->setAttribute('class', 'form-control');
+$action_reason_create_user->setAttribute('placeholder', 'Action Reason Create User');
+
+$action_reason_create_date= $form->get('action_reason_create_date');
+$action_reason_create_date->setAttribute('class', 'form-control');
+$action_reason_create_date->setAttribute('placeholder', 'Action Reason Create Date');
+
+$action_reason_modify_id= $form->get('action_reason_modify_id');
+$action_reason_modify_id->setAttribute('class', 'form-control');
+$action_reason_modify_id->setAttribute('placeholder', 'Action Reason Modify ID');
+
+$action_reason_modify_user= $form->get('action_reason_modify_user');
+$action_reason_modify_user->setAttribute('class', 'form-control');
+$action_reason_modify_user->setAttribute('placeholder', 'Action Reason Modify User');
+
+$action_reason_modify_date= $form->get('action_reason_modify_date');
+$action_reason_modify_date->setAttribute('class', 'form-control');
+$action_reason_modify_date->setAttribute('placeholder', 'Action Reason Modify Date');
+
 $submit = $form->get('submit');
 $submit->setAttribute('class', 'btn btn-primary');
 
@@ -23,21 +69,83 @@ $form->prepare();
 
 echo $this->form()->openTag($form);
 ?>
-<?php // Wrap the elements in divs marked as form groups, and render the
+<?php
+// Wrap the elements in divs marked as form groups, and render the
 // label, element, and errors separately within ?>
-    <div class="form-group">
-        <?= $this->formLabel($album) ?>
-        <?= $this->formElement($album) ?>
-        <?= $this->formElementErrors()->render($album, ['class' => 'help-block']) ?>
-    </div>
+
 
     <div class="form-group">
-        <?= $this->formLabel($artist) ?>
-        <?= $this->formElement($artist) ?>
-        <?= $this->formElementErrors()->render($artist, ['class' => 'help-block']) ?>
+        <?= $this->formLabel($action_id) ?>
+        <?= $this->formElement($action_id) ?>
+        <?= $this->formElementErrors()->render($action_id, ['class' => 'help-block']) ?>
+    </div>
+    <div class="form-group">
+        <?= $this->formLabel($action_name) ?>
+        <?= $this->formElement($action_name) ?>
+        <?= $this->formElementErrors()->render($action_name, ['class' => 'help-block']) ?>
+    </div>
+    <div class="form-group">
+        <?= $this->formLabel($action_description) ?>
+        <?= $this->formElement($action_description) ?>
+        <?= $this->formElementErrors()->render($action_description, ['class' => 'help-block']) ?>
+    </div>
+    <div class="form-group">
+        <?= $this->formLabel($reason_id) ?>
+        <?= $this->formElement($reason_id) ?>
+        <?= $this->formElementErrors()->render($reason_id, ['class' => 'help-block']) ?>
+    </div>
+    <div class="form-group">
+        <?= $this->formLabel($reason_name) ?>
+        <?= $this->formElement($reason_name) ?>
+        <?= $this->formElementErrors()->render($reason_name, ['class' => 'help-block']) ?>
+    </div>
+    <div class="form-group">
+        <?= $this->formLabel($reason_description) ?>
+        <?= $this->formElement($reason_description) ?>
+        <?= $this->formElementErrors()->render($reason_description, ['class' => 'help-block']) ?>
+    </div>
+    <div class="form-group">
+        <?= $this->formLabel($action_reason_begin) ?>
+        <?= $this->formElement($action_reason_begin) ?>
+        <?= $this->formElementErrors()->render($action_reason_begin, ['class' => 'help-block']) ?>
+    </div>
+    <div class="form-group">
+        <?= $this->formLabel($action_reason_end) ?>
+        <?= $this->formElement($action_reason_end) ?>
+        <?= $this->formElementErrors()->render($action_reason_end, ['class' => 'help-block']) ?>
+    </div>
+    <div class="form-group">
+        <?= $this->formLabel($action_reason_create_id) ?>
+        <?= $this->formElement($action_reason_create_id) ?>
+        <?= $this->formElementErrors()->render($action_reason_create_id, ['class' => 'help-block']) ?>
+    </div>
+    <div class="form-group">
+        <?= $this->formLabel($action_reason_create_user) ?>
+        <?= $this->formElement($action_reason_create_user) ?>
+        <?= $this->formElementErrors()->render($action_reason_create_user, ['class' => 'help-block']) ?>
+    </div>
+    <div class="form-group">
+        <?= $this->formLabel($action_reason_create_date) ?>
+        <?= $this->formElement($action_reason_create_date) ?>
+        <?= $this->formElementErrors()->render($action_reason_create_date, ['class' => 'help-block']) ?>
+    </div>
+    <div class="form-group">
+        <?= $this->formLabel($action_reason_modify_id) ?>
+        <?= $this->formElement($action_reason_modify_id) ?>
+        <?= $this->formElementErrors()->render($action_reason_modify_id, ['class' => 'help-block']) ?>
+    </div>
+    <div class="form-group">
+        <?= $this->formLabel($action_reason_modify_user) ?>
+        <?= $this->formElement($action_reason_modify_user) ?>
+        <?= $this->formElementErrors()->render($action_reason_modify_user, ['class' => 'help-block']) ?>
+    </div>
+    <div class="form-group">
+        <?= $this->formLabel($action_reason_modify_date) ?>
+        <?= $this->formElement($action_reason_modify_date) ?>
+        <?= $this->formElementErrors()->render($action_reason_modify_date, ['class' => 'help-block']) ?>
     </div>
 
 <?php
 echo $this->formSubmit($submit);
-echo $this->formHidden($form->get('id'));
+echo $this->formHidden($form->get('action_reason_id'));
 echo $this->form()->closeTag();

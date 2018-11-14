@@ -26,15 +26,9 @@ class Module implements ConfigProviderInterface
                 },
                 Model\AlbumTableGateway::class => function ($container) {
                     $dbAdapter = $container->get(AdapterInterface::class);
-//                    $dbAdapter = new Zend\Db\Adapter\Adapter([
-//                        'driver'   => 'Pdo_Sqlite',
-//                        'database' => 'zftutorial',
-//                        'username' => 'root',
-//                        'password' => '',
-//                    ]);
                     $resultSetPrototype = new ResultSet();
                     $resultSetPrototype->setArrayObjectPrototype(new Model\Album());
-                    return new TableGateway('album', $dbAdapter, null, $resultSetPrototype);
+                    return new TableGateway('table', $dbAdapter, null, $resultSetPrototype);
                 },
             ],
         ];

@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$USER_HOME$/angular/task/.idea/task.iml" filepath="$USER_HOME$/angular/task/.idea/task.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/task-zend-2.iml" filepath="$PROJECT_DIR$/.idea/task-zend-2.iml" />
     </modules>
   </component>
