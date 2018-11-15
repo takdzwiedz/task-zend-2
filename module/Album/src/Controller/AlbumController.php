@@ -1,4 +1,5 @@
 <?php
+
 namespace Album\Controller;
 
 use Album\Model\AlbumTable;
@@ -6,6 +7,8 @@ use Zend\Mvc\Controller\AbstractActionController;
 use Zend\View\Model\ViewModel;
 use Album\Form\AlbumForm;
 use Album\Model\Album;
+use Zend\View\Model\JsonModel;
+
 
 class AlbumController extends AbstractActionController
 {
@@ -50,12 +53,11 @@ class AlbumController extends AbstractActionController
 
     public function editAction()
     {
-        $action_reason_id = (int) $this->params()->fromRoute('action_reason_id', 0);
-
+        // TO DO
+        $action_reason_id = (int) $this->params()->fromRoute('id', 0);
         if (0 === $action_reason_id) {
             return $this->redirect()->toRoute('album', ['action' => 'add']);
         }
-
         // Retrieve the album with the specified id. Doing so raises
         // an exception if the album is not found, which should result
         // in redirecting to the landing page.
@@ -64,6 +66,7 @@ class AlbumController extends AbstractActionController
         } catch (\Exception $e) {
             return $this->redirect()->toRoute('album', ['action' => 'index']);
         }
+
 
         $form = new AlbumForm();
         $form->bind($album);
@@ -75,7 +78,7 @@ class AlbumController extends AbstractActionController
         if (! $request->isPost()) {
             return $viewData;
         }
-
+        echo "miś"; die();
         $form->setInputFilter($album->getInputFilter());
         $form->setData($request->getPost());
 
@@ -91,6 +94,8 @@ class AlbumController extends AbstractActionController
 
     public function deleteAction()
     {
+
+        // TO DO
         $action_reason_id = (int) $this->params()->fromRoute('action_reason_id', 0);
         if (!$action_reason_id) {
             return $this->redirect()->toRoute('album');
@@ -113,5 +118,10 @@ class AlbumController extends AbstractActionController
             'action_reason_id'    => $action_reason_id,
             'album' => $this->table->getAlbum($action_reason_id),
         ];
+    }
+
+    public function jsonAction()
+    {
+        return new JsonModel($this->table->fetchAll());
     }
 }

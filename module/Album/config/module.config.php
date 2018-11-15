@@ -1,7 +1,9 @@
 <?php
 namespace Album;
 
+
 use Zend\Router\Http\Segment;
+use Zend\View\Strategy\JsonStrategy;
 
 return [
 
@@ -27,6 +29,9 @@ return [
     'view_manager' => [
         'template_path_stack' => [
             'album' => __DIR__ . '/../view',
+        ],
+        'strategies' => [
+            'ViewJsonStrategy',
         ],
     ],
 ];

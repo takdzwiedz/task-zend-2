@@ -19,6 +19,7 @@
       <excludeFolder url="file://$MODULE_DIR$/vendor/zendframework/zend-hydrator" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/zendframework/zend-i18n" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/zendframework/zend-inputfilter" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/zendframework/zend-json" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/zendframework/zend-loader" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/zendframework/zend-modulemanager" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/zendframework/zend-mvc" />

@@ -1,7 +1,7 @@
 <?php
 // module/Album/view/album/album/edit.phtml:
 
-$title = 'Edytuj rekord';
+$title = 'Edit album';
 $this->headTitle($title);
 ?>
     <h1><?= $this->escapeHtml($title) ?></h1>
@@ -68,9 +68,8 @@ $submit = $form->get('submit');
 $submit->setAttribute('class', 'btn btn-primary');
 
 $form->setAttribute('action', $this->url('album', [
-
     'action' => 'edit',
-    'action_reason_id'=> $action_reason_id,
+    'action_reason_id'     => $action_reason_id,
 ]));
 $form->prepare();
 
@@ -146,6 +145,7 @@ echo $this->form()->openTag($form);
         <?= $this->formElement($action_reason_modify_date) ?>
         <?= $this->formElementErrors()->render($action_reason_modify_date, ['class' => 'help-block']) ?>
     </div>
+
 
 <?php
 echo $this->formSubmit($submit);

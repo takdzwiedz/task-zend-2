@@ -31,11 +31,6 @@ class Album implements InputFilterAwareInterface
     public $action_reason_modify_date;
 
 
-//    public $id;
-//    public $artist;
-//    public $title;
-//
-
     private $inputFilter;
 
     public function exchangeArray(array $data)
@@ -56,12 +51,7 @@ class Album implements InputFilterAwareInterface
         $this->action_reason_modify_user = !empty($data['action_reason_modify_user']) ? $data['action_reason_modify_user'] : null;
         $this->action_reason_modify_date = !empty($data['action_reason_modify_date']) ? $data['action_reason_modify_date'] : null;
     }
-//    public function exchangeArray(array $data)
-//    {
-//        $this->id     = !empty($data['id']) ? $data['id'] : null;
-//        $this->artist = !empty($data['artist']) ? $data['artist'] : null;
-//        $this->title  = !empty($data['title']) ? $data['title'] : null;
-//    }
+
     public function setInputFilter(InputFilterInterface $inputFilter)
     {
         throw new DomainException(sprintf(
