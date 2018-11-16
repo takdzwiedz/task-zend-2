@@ -2,18 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8407bc36-1a1e-4c17-aa92-2f7d7d1e382f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/module/Album/view/album/album/json.phtml" afterDir="false" />
+      <change beforePath="$USER_HOME$/angular/task/src/app/app.component.css" beforeDir="false" afterPath="$USER_HOME$/angular/task/src/app/app.component.css" afterDir="false" />
+      <change beforePath="$USER_HOME$/angular/task/src/app/app.component.html" beforeDir="false" afterPath="$USER_HOME$/angular/task/src/app/app.component.html" afterDir="false" />
       <change beforePath="$USER_HOME$/angular/task/src/app/app.component.ts" beforeDir="false" afterPath="$USER_HOME$/angular/task/src/app/app.component.ts" afterDir="false" />
+      <change beforePath="$USER_HOME$/angular/task/src/app/app.module.ts" beforeDir="false" afterPath="$USER_HOME$/angular/task/src/app/app.module.ts" afterDir="false" />
       <change beforePath="$USER_HOME$/angular/task/src/app/data.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/task-zend-2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/task-zend-2.iml" afterDir="false" />
+      <change beforePath="$USER_HOME$/angular/task/src/styles.css" beforeDir="false" afterPath="$USER_HOME$/angular/task/src/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module/Album/config/module.config.php" beforeDir="false" afterPath="$PROJECT_DIR$/module/Album/config/module.config.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/autoload/global.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/autoload/global.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/module/Album/src/Controller/AlbumController.php" beforeDir="false" afterPath="$PROJECT_DIR$/module/Album/src/Controller/AlbumController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module/Album/src/Model/Album.php" beforeDir="false" afterPath="$PROJECT_DIR$/module/Album/src/Model/Album.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module/Album/view/album/album/edit.phtml" beforeDir="false" afterPath="$PROJECT_DIR$/module/Album/view/album/album/edit.phtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module/Album/src/Model/AlbumTable.php" beforeDir="false" afterPath="$PROJECT_DIR$/module/Album/src/Model/AlbumTable.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module/Application/view/layout/layout.phtml" beforeDir="false" afterPath="$PROJECT_DIR$/module/Application/view/layout/layout.phtml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -61,47 +60,55 @@
           <entry key="project.closed" value="4" />
           <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.3" value="2" />
-          <entry key="project.open.time.5" value="1" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.open.time.5" value="2" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="album" value="1" />
+          <entry key="css" value="4" />
+          <entry key="html" value="3" />
           <entry key="json" value="2" />
-          <entry key="php" value="62" />
-          <entry key="phtml" value="17" />
+          <entry key="php" value="70" />
+          <entry key="phtml" value="24" />
           <entry key="sql" value="4" />
-          <entry key="ts" value="4" />
+          <entry key="ts" value="24" />
           <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
+          <entry key="CSS" value="4" />
           <entry key="Database Element" value="1" />
+          <entry key="HTML" value="3" />
           <entry key="JSON" value="2" />
-          <entry key="PHP" value="79" />
+          <entry key="PHP" value="94" />
           <entry key="SQL" value="3" />
           <entry key="Scratch" value="1" />
-          <entry key="TypeScript" value="4" />
+          <entry key="TypeScript" value="24" />
           <entry key="XML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
+          <entry key="css" value="16" />
+          <entry key="html" value="29" />
           <entry key="json" value="2" />
-          <entry key="php" value="1127" />
+          <entry key="php" value="2136" />
           <entry key="phtml" value="498" />
-          <entry key="ts" value="31" />
+          <entry key="ts" value="262" />
           <entry key="txt" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
+          <entry key="CSS" value="16" />
+          <entry key="HTML" value="29" />
           <entry key="JSON" value="2" />
-          <entry key="PHP" value="1625" />
+          <entry key="PHP" value="2634" />
           <entry key="PLAIN_TEXT" value="10" />
-          <entry key="TypeScript" value="31" />
+          <entry key="TypeScript" value="262" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.php.composer.command.options" />
@@ -110,7 +117,7 @@
       <usages-collector id="statistics.php.new.class" />
       <usages-collector id="statistics.js.language.service.starts">
         <counts>
-          <entry key="Angular2LanguageService" value="1" />
+          <entry key="Angular2LanguageService" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.php.composer.actions" />
@@ -118,76 +125,19 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/module/Album/src/Controller/AlbumController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="126" column="1" lean-forward="true" selection-start-line="126" selection-start-column="1" selection-end-line="126" selection-end-column="1" />
+            <state relative-caret-position="69">
+              <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
               <folding>
-                <element signature="e#36#63#0#PHP" expanded="true" />
-                <element signature="e#308#397#0#PHP" />
+                <element signature="e#79#106#0#PHP" expanded="true" />
+                <element signature="e#2916#3005#0#PHP" />
                 <element signature="e#403#537#0#PHP" />
                 <element signature="e#543#1149#0#PHP" />
-                <element signature="e#1155#2460#0#PHP" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$USER_HOME$/angular/task/src/app/app.component.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="120" column="51" selection-start-line="120" selection-start-column="51" selection-end-line="120" selection-end-column="51" />
-              <folding>
-                <element signature="e#0#48#0" expanded="true" />
-                <element signature="e#1735#3571#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/angular/task/src/app/data.json">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/module/Album/src/Model/Album.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1659">
-              <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
-              <folding>
-                <element signature="e#31#51#0#PHP" expanded="true" />
-                <element signature="e#3581#3751#1#PHP" />
-                <element signature="e#3781#4306#1#PHP" />
-                <element signature="e#4336#4863#1#PHP" />
-                <element signature="e#4901#5428#1#PHP" />
-                <element signature="e#5456#5990#1#PHP" />
-                <element signature="e#6036#6570#1#PHP" />
-                <element signature="e#6576#7101#1#PHP" />
-                <element signature="e#7133#7660#1#PHP" />
-                <element signature="e#7697#8231#1#PHP" />
-                <element signature="e#8262#8797#1#PHP" />
-                <element signature="e#8824#9357#1#PHP" />
-                <element signature="e#9394#9933#1#PHP" />
-                <element signature="e#9952#10493#1#PHP" />
-                <element signature="e#10522#11063#1#PHP" />
-                <element signature="e#11092#11633#1#PHP" />
-                <element signature="e#11662#12203#1#PHP" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/module/Album/src/Model/AlbumTable.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-995">
-              <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-              <folding>
-                <element signature="e#30#51#0#PHP" expanded="true" />
+                <element signature="e#3760#5086#0#PHP" />
+                <element signature="e#5092#5895#0#PHP" />
               </folding>
             </state>
           </provider>
@@ -206,19 +156,35 @@
       <find>Value is required and can't be empty</find>
       <find>getservi</find>
       <find>id</find>
+      <find>import {TableHttpExample} from './app.component';</find>
+      <find>TableHttpExample</find>
+      <find>Header set Access-Control-Allow-Origin &quot;*&quot;</find>
+      <find>resultset</find>
+      <find>resultSet</find>
+      <find>get</find>
+      <find>isLoadingResults</find>
+      <find>githu</find>
+      <find>GithubIssue</find>
+      <find>getRepoIssues</find>
+      <find>total_count</find>
+      <find>items</find>
+      <find>dataSource</find>
+      <find>toArray</find>
     </findStrings>
     <replaceStrings>
       <replace>$tuz</replace>
       <replace>$action_reason_id</replace>
       <replace>action_reason_id</replace>
+      <replace>ZendApi</replace>
+      <replace>ZendIssue</replace>
     </replaceStrings>
     <dirStrings>
-      <dir>C:\WampServer\www\task-zend-2</dir>
       <dir>C:\WampServer\www\task-zend-2\module</dir>
+      <dir>C:\WampServer\www\task-zend-2</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$USER_HOME$/angular/task" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -232,17 +198,24 @@
         <option value="$PROJECT_DIR$/composer.json" />
         <option value="$PROJECT_DIR$/module/Album/view/album/album/delete.phtml" />
         <option value="$PROJECT_DIR$/module/Application/config/module.config.php" />
-        <option value="$PROJECT_DIR$/config/autoload/global.php" />
         <option value="$PROJECT_DIR$/module/Album/src/Module.php" />
         <option value="$PROJECT_DIR$/module/Album/view/album/album/index.phtml" />
         <option value="$PROJECT_DIR$/module/Album/view/album/album/add.phtml" />
         <option value="$PROJECT_DIR$/module/Album/src/Form/AlbumForm.php" />
         <option value="$PROJECT_DIR$/module/Album/src/Model/Album.php" />
         <option value="$PROJECT_DIR$/module/Album/view/album/album/edit.phtml" />
-        <option value="$PROJECT_DIR$/module/Album/src/Model/AlbumTable.php" />
         <option value="$PROJECT_DIR$/module/Album/config/module.config.php" />
-        <option value="$PROJECT_DIR$/module/Album/src/Controller/AlbumController.php" />
+        <option value="$USER_HOME$/Downloads/angular http/src/app/table-http-example.ts" />
+        <option value="$PROJECT_DIR$/module/Album/src/Model/AlbumTable.php" />
+        <option value="$USER_HOME$/angular/task/src/app/app.module.ts" />
+        <option value="$USER_HOME$/angular/task/src/main.ts" />
+        <option value="$USER_HOME$/angular/task/src/styles.css" />
+        <option value="$PROJECT_DIR$/module/Application/view/layout/layout.phtml" />
+        <option value="$USER_HOME$/angular/task/src/app/app.component.css" />
+        <option value="$PROJECT_DIR$/config/autoload/global.php" />
         <option value="$USER_HOME$/angular/task/src/app/app.component.ts" />
+        <option value="$USER_HOME$/angular/task/src/app/app.component.html" />
+        <option value="$PROJECT_DIR$/module/Album/src/Controller/AlbumController.php" />
       </list>
     </option>
   </component>
@@ -252,6 +225,15 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$USER_HOME$/angular/task/node_modules" />
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$USER_HOME$/angular/task/package.json" />
+    </packageJsonPaths>
+  </component>
+  <component name="PhpDebugGeneral" listening_started="true" />
   <component name="PhpServers">
     <servers />
   </component>
@@ -286,8 +268,8 @@
     </include_path>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-24" />
-    <option name="y" value="1" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
@@ -302,6 +284,15 @@
       <pane id="ProjectPane">
         <subPane>
           <expand>
+            <path>
+              <item name="task-zend-2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="task-zend-2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="task-zend-2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="task-zend-2" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+            </path>
             <path>
               <item name="task-zend-2" type="b2602c69:ProjectViewProjectNode" />
               <item name="task" type="462c0819:PsiDirectoryNode" />
@@ -328,7 +319,7 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="database.console.LAST_STATE" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/angular/task" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/angular-http" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="ts.external.directory.path" value="C:\Users\artur\angular\task\node_modules\typescript\lib" />
@@ -365,17 +356,27 @@
       <workItem from="1542100631194" duration="1010000" />
       <workItem from="1542101689322" duration="8233000" />
       <workItem from="1542183439472" duration="22404000" />
+      <workItem from="1542349105938" duration="23907000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50444000" />
+    <option name="totallyTimeSpent" value="80896000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21428572" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21750806" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="TypeScript" order="0" weight="0.3290993" />
@@ -385,11 +386,11 @@
       <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="7" />
+      <window_info anchor="bottom" id="TODO" order="7" weight="0.3290993" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.3290993" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.3290993" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.3290993" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="bottom" id="Database Console" order="13" weight="0.3290993" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -405,21 +406,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/module/Application/src/Controller/IndexController.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/autoload/development.local.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="17" selection-start-line="17" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/zendframework/zend-modulemanager/src/ModuleManager.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2100" />
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/standard_2.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
@@ -491,16 +477,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/module/Application/view/layout/layout.phtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="800">
-          <caret line="40" column="57" selection-start-line="40" selection-start-column="57" selection-end-line="40" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/angular/task/src/app/app.module.ts">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/vendor/zendframework/zend-filter/src/StripTags.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
@@ -567,13 +543,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/zendframework/zend-view/src/Model/JsonModel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/module/Album/view/album/album/add.phtml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1755">
@@ -581,37 +550,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/angular/task/src/app/array.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="25" column="47" selection-start-line="25" selection-start-column="47" selection-end-line="25" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/module/Album/view/album/album/edit.phtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="152" column="31" lean-forward="true" selection-start-line="152" selection-start-column="31" selection-end-line="152" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/autoload/global.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="18" column="35" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
-          <folding>
-            <element signature="e#6#400#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/modules.config.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
           <caret line="24" selection-start-line="24" selection-end-line="24" />
-          <folding>
-            <element signature="e#6#278#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -622,52 +564,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/module/Album/src/Model/Album.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1659">
-          <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
-          <folding>
-            <element signature="e#31#51#0#PHP" expanded="true" />
-            <element signature="e#3581#3751#1#PHP" />
-            <element signature="e#3781#4306#1#PHP" />
-            <element signature="e#4336#4863#1#PHP" />
-            <element signature="e#4901#5428#1#PHP" />
-            <element signature="e#5456#5990#1#PHP" />
-            <element signature="e#6036#6570#1#PHP" />
-            <element signature="e#6576#7101#1#PHP" />
-            <element signature="e#7133#7660#1#PHP" />
-            <element signature="e#7697#8231#1#PHP" />
-            <element signature="e#8262#8797#1#PHP" />
-            <element signature="e#8824#9357#1#PHP" />
-            <element signature="e#9394#9933#1#PHP" />
-            <element signature="e#9952#10493#1#PHP" />
-            <element signature="e#10522#11063#1#PHP" />
-            <element signature="e#11092#11633#1#PHP" />
-            <element signature="e#11662#12203#1#PHP" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/angular/task/src/app/data.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$USER_HOME$/angular/task/src/app/data.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/module/Album/src/Controller/AlbumController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="126" column="1" lean-forward="true" selection-start-line="126" selection-start-column="1" selection-end-line="126" selection-end-column="1" />
-          <folding>
-            <element signature="e#36#63#0#PHP" expanded="true" />
-            <element signature="e#308#397#0#PHP" />
-            <element signature="e#403#537#0#PHP" />
-            <element signature="e#543#1149#0#PHP" />
-            <element signature="e#1155#2460#0#PHP" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/angular/task/src/app/data.xml" />
     <entry file="file://$USER_HOME$/angular/task/src/app/inserter.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
@@ -682,43 +579,211 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/module/Album/view/album/album/index.phtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="30" column="30" selection-start-line="30" selection-start-column="30" selection-end-line="30" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/module/Album/view/album/album/json.phtml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/module/Album/config/module.config.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="129">
           <caret line="24" column="14" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/angular/task/src/polyfills.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/angular/task/src/app/data.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/angular/task/src/app/app.component.spec.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
           <folding>
-            <element signature="e#25#54#0#PHP" expanded="true" />
+            <element signature="e#0#55#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/angular/task/src/app/array.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="25" column="47" selection-start-line="25" selection-start-column="47" selection-end-line="25" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/angular http/src/app/table-http-example.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="e#0#48#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/zendframework/zend-view/src/Model/JsonModel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-755">
+          <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/module/Album/src/Model/AlbumTable.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-995">
-          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+        <state relative-caret-position="600">
+          <caret line="30" column="9" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
           <folding>
             <element signature="e#30#51#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/module/Album/view/album/album/edit.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="717">
+          <caret line="152" column="31" lean-forward="true" selection-start-line="152" selection-start-column="31" selection-end-line="152" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/Album/src/Model/Album.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
+          <folding>
+            <element signature="e#31#51#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/zendframework/zend-db/src/TableGateway/TableGatewayInterface.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/zendframework/zend-db/src/ResultSet/ResultSet.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="13" column="35" lean-forward="true" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/zendframework/zend-db/src/ResultSet/AbstractResultSet.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4780">
+          <caret line="17" column="15" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/angular/task/node_modules/rxjs/src/internal/Observable.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1600">
+          <caret line="219" selection-start-line="219" selection-end-line="219" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/angular/task/node_modules/@angular/material/sort/typings/sort.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="557">
+          <caret line="47" column="7" lean-forward="true" selection-start-line="47" selection-start-column="7" selection-end-line="47" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/angular/task/node_modules/@angular/common/http/src/client.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/Application/view/layout/layout.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="28" column="43" lean-forward="true" selection-start-line="28" selection-start-column="43" selection-end-line="28" selection-end-column="43" />
+          <folding>
+            <element signature="e#1699#1705#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/angular/task/src/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/angular/task/src/main.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="e#0#47#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/Album/view/album/album/json.phtml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/angular/task/src/app/app.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="54" lean-forward="true" selection-start-column="54" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/angular/task/src/app/app.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" column="14" lean-forward="true" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$USER_HOME$/angular/task/src/app/app.component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="120" column="51" selection-start-line="120" selection-start-column="51" selection-end-line="120" selection-end-column="51" />
+        <state relative-caret-position="-1271">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
           <folding>
             <element signature="e#0#48#0" expanded="true" />
-            <element signature="e#1735#3571#0" />
+            <element signature="e#598#1059#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/autoload/global.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="16" column="26" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
+          <folding>
+            <element signature="e#6#400#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/angular/task/src/app/app.component.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="70">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/Album/view/album/album/index.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="620">
+          <caret line="31" column="12" lean-forward="true" selection-start-line="31" selection-start-column="12" selection-end-line="31" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/Album/src/Controller/AlbumController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
+          <folding>
+            <element signature="e#79#106#0#PHP" expanded="true" />
+            <element signature="e#2916#3005#0#PHP" />
+            <element signature="e#403#537#0#PHP" />
+            <element signature="e#543#1149#0#PHP" />
+            <element signature="e#3760#5086#0#PHP" />
+            <element signature="e#5092#5895#0#PHP" />
           </folding>
         </state>
       </provider>

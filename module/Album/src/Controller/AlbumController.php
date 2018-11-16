@@ -2,6 +2,8 @@
 
 namespace Album\Controller;
 
+header('Access-Control-Allow-Origin: *');
+
 use Album\Model\AlbumTable;
 use Zend\Mvc\Controller\AbstractActionController;
 use Zend\View\Model\ViewModel;
@@ -9,10 +11,10 @@ use Album\Form\AlbumForm;
 use Album\Model\Album;
 use Zend\View\Model\JsonModel;
 
-
 class AlbumController extends AbstractActionController
 {
     private $table;
+
     public function __construct(AlbumTable $table)
     {
         $this->table = $table;
@@ -33,7 +35,7 @@ class AlbumController extends AbstractActionController
 
         $request = $this->getRequest();
 
-        if (! $request->isPost()) {
+        if (!$request->isPost()) {
             return ['form' => $form];
         }
 
@@ -42,8 +44,7 @@ class AlbumController extends AbstractActionController
         $form->setData($request->getPost());
 
 
-
-        if (! $form->isValid()) {
+        if (!$form->isValid()) {
             return ['form' => $form];
         }
         $album->exchangeArray($form->getData());
@@ -54,7 +55,7 @@ class AlbumController extends AbstractActionController
     public function editAction()
     {
         // TO DO
-        $action_reason_id = (int) $this->params()->fromRoute('id', 0);
+        $action_reason_id = (int)$this->params()->fromRoute('id', 0);
         if (0 === $action_reason_id) {
             return $this->redirect()->toRoute('album', ['action' => 'add']);
         }
@@ -75,14 +76,15 @@ class AlbumController extends AbstractActionController
         $request = $this->getRequest();
         $viewData = ['action_reason_id' => $action_reason_id, 'form' => $form];
 
-        if (! $request->isPost()) {
+        if (!$request->isPost()) {
             return $viewData;
         }
-        echo "miś"; die();
+        echo "miś";
+        die();
         $form->setInputFilter($album->getInputFilter());
         $form->setData($request->getPost());
 
-        if (! $form->isValid()) {
+        if (!$form->isValid()) {
             return $viewData;
         }
 
@@ -96,7 +98,7 @@ class AlbumController extends AbstractActionController
     {
 
         // TO DO
-        $action_reason_id = (int) $this->params()->fromRoute('action_reason_id', 0);
+        $action_reason_id = (int)$this->params()->fromRoute('action_reason_id', 0);
         if (!$action_reason_id) {
             return $this->redirect()->toRoute('album');
         }
@@ -106,7 +108,7 @@ class AlbumController extends AbstractActionController
             $del = $request->getPost('del', 'No');
 
             if ($del == 'Yes') {
-                $id = (int) $request->getPost('action_reason_id');
+                $id = (int)$request->getPost('action_reason_id');
                 $this->table->deleteAlbum($action_reason_id);
             }
 
@@ -115,13 +117,22 @@ class AlbumController extends AbstractActionController
         }
 
         return [
-            'action_reason_id'    => $action_reason_id,
+            'action_reason_id' => $action_reason_id,
             'album' => $this->table->getAlbum($action_reason_id),
         ];
     }
 
     public function jsonAction()
     {
-        return new JsonModel($this->table->fetchAll());
+        $results = $this->table->fetchAll();
+
+        $response = [
+            'success' => true,
+            'data' => [],
+            'count' => (string)(count($results)),
+        ];
+        $response['data'] = $results->toArray();
+
+        return new JsonModel($response);
     }
 }

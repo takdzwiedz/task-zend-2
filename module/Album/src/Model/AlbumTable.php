@@ -29,7 +29,6 @@ class AlbumTable
                 $action_reason_id
             ));
         }
-
         return $row;
     }
 
