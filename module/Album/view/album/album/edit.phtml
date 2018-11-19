@@ -31,35 +31,35 @@ $reason_description = $form->get('reason_description');
 $reason_description->setAttribute('class', 'form-control');
 $reason_description->setAttribute('placeholder', 'Reason Desc.');
 
-$action_reason_begin= $form->get('action_reason_begin');
+$action_reason_begin = $form->get('action_reason_begin');
 $action_reason_begin->setAttribute('class', 'form-control');
 $action_reason_begin->setAttribute('placeholder', 'Action Reason Begin');
 
-$action_reason_end= $form->get('action_reason_end');
+$action_reason_end = $form->get('action_reason_end');
 $action_reason_end->setAttribute('class', 'form-control');
 $action_reason_end->setAttribute('placeholder', 'Action Reason End');
 
-$action_reason_create_id= $form->get('action_reason_create_id');
+$action_reason_create_id = $form->get('action_reason_create_id');
 $action_reason_create_id->setAttribute('class', 'form-control');
 $action_reason_create_id->setAttribute('placeholder', 'Action Reason Create Id');
 
-$action_reason_create_user= $form->get('action_reason_create_user');
+$action_reason_create_user = $form->get('action_reason_create_user');
 $action_reason_create_user->setAttribute('class', 'form-control');
 $action_reason_create_user->setAttribute('placeholder', 'Action Reason Create User');
 
-$action_reason_create_date= $form->get('action_reason_create_date');
+$action_reason_create_date = $form->get('action_reason_create_date');
 $action_reason_create_date->setAttribute('class', 'form-control');
 $action_reason_create_date->setAttribute('placeholder', 'Action Reason Create Date');
 
-$action_reason_modify_id= $form->get('action_reason_modify_id');
+$action_reason_modify_id = $form->get('action_reason_modify_id');
 $action_reason_modify_id->setAttribute('class', 'form-control');
 $action_reason_modify_id->setAttribute('placeholder', 'Action Reason Modify ID');
 
-$action_reason_modify_user= $form->get('action_reason_modify_user');
+$action_reason_modify_user = $form->get('action_reason_modify_user');
 $action_reason_modify_user->setAttribute('class', 'form-control');
 $action_reason_modify_user->setAttribute('placeholder', 'Action Reason Modify User');
 
-$action_reason_modify_date= $form->get('action_reason_modify_date');
+$action_reason_modify_date = $form->get('action_reason_modify_date');
 $action_reason_modify_date->setAttribute('class', 'form-control');
 $action_reason_modify_date->setAttribute('placeholder', 'Action Reason Modify Date');
 
@@ -67,9 +67,10 @@ $action_reason_modify_date->setAttribute('placeholder', 'Action Reason Modify Da
 $submit = $form->get('submit');
 $submit->setAttribute('class', 'btn btn-primary');
 
+
 $form->setAttribute('action', $this->url('album', [
     'action' => 'edit',
-    'action_reason_id'     => $action_reason_id,
+    'id' => $action_reason_id,
 ]));
 $form->prepare();
 
