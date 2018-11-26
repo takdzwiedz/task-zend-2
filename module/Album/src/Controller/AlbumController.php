@@ -2,8 +2,6 @@
 
 namespace Album\Controller;
 
-header('Access-Control-Allow-Origin: *');
-
 use Album\Model\AlbumTable;
 use Zend\Mvc\Controller\AbstractActionController;
 use Zend\View\Model\ViewModel;
